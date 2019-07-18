@@ -24,6 +24,7 @@ public class UserController {
 
     @RequestMapping("/index")
     public String index(){
+        System.out.println("sdasdasdsa");
         return "我可以访问啦！！！！！";
     }
 }
