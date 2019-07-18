@@ -21,4 +21,9 @@ public class UserController {
     public String getUser(@PathVariable int id){
         return userService.getUser(id);
     }
+
+    @RequestMapping("/index")
+    public String index(){
+        return "我可以访问啦！！！！！";
+    }
 }
